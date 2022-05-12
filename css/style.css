@@ -1,0 +1,115 @@
+/* Reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Vers Mobile */
+/* Common */
+.flexbetween {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.mbm {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+/* Inizio Header */
+
+header {
+    height: 80px;
+    background-color: #0084fd;
+}
+
+nav {
+    height: 100%;
+}
+
+
+nav .mainmenu {
+    display: none;
+}
+
+/* Fine header */
+
+/* Inizio Main */
+
+.container {
+    max-width: 1170px;
+}
+
+/* Col / Column debug */
+.column {
+    margin-top: 2rem;
+}
+
+
+.col {
+    border: 1px solid red;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* .columntop {
+   
+}
+.columnbot {
+
+} */
+
+
+/* Vers Tablet */
+@media screen and (min-width:768px) {
+    /* debug */
+    body {
+        background-color: lightblue;
+    }
+    .columntop, .columnbot {
+        display: flex;
+        justify-content: space-between; 
+        /* margin-top: 1.5rem;
+        margin-bottom: 1.5rem; */
+    
+    }
+    .topleft {
+        width: 66%;
+        border: 1px solid red;
+      }
+    
+
+    .topright {
+        width: 30%;
+        margin-left: 2.5rem;
+    }
+
+    .columnbot .col:nth-child(2) {
+        margin-left: 2.5rem;
+        margin-right: 2.5rem;
+    }
+}
+
+/* Vers Desktop */
+@media screen and (min-width:992px) {
+    /* debug */
+    body {
+        background-color: lightcoral;
+    }
+
+    nav .burgermenu {
+        display:none;
+    }
+    nav .mainmenu {
+        display: block;
+    }
+
+    /* Main  */
+    .topright {
+        width: 31.5%;
+        margin-left: 2.5rem;
+    }
+}
+
