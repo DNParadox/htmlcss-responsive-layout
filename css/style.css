@@ -61,17 +61,22 @@ nav .mainmenu {
 
 /* Section Strategy */
 .strategy {
-    background-color: #9792e4;;
+    background-color: #9792e4;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
 }
 
-.strategy .img {
+.strategytext .img {
     display: flex;
     justify-content: center;
 }
 
 .img img , .card img {
-    width: 50%;
+    width: 100%;
 }
+
+/* Section Testimonial */
+/* Section Benefits */
 
 /* Vers Tablet */
 @media screen and (min-width:768px) {
@@ -101,6 +106,10 @@ nav .mainmenu {
         margin-left: 2.5rem;
         margin-right: 2.5rem;
     }
+    /* Section Strategy */
+    /* Section Testimonial */
+    /* Section Benefits */
+    
 }
 
 /* Vers Desktop */
@@ -131,15 +140,15 @@ nav .mainmenu {
 
     .strategycolumn {
         display: flex;
-        width: 90%;
+        width: 95%;
         margin: 0 auto;
     }
 
     .img {
-        width: 50%;
+        width: 100%;
     }
 
-    .img img , .card img {
+    .card img {
         width: 100%;
     }
 }
