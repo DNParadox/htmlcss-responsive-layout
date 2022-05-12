@@ -65,15 +65,14 @@ nav .mainmenu {
 /* Vers Tablet */
 @media screen and (min-width:768px) {
     /* debug */
+    /* main */
+                /* Section Application */
     body {
         background-color: lightblue;
     }
     .columntop, .columnbot {
         display: flex;
         justify-content: space-between; 
-        /* margin-top: 1.5rem;
-        margin-bottom: 1.5rem; */
-    
     }
     .topleft {
         width: 66%;
@@ -95,6 +94,8 @@ nav .mainmenu {
 /* Vers Desktop */
 @media screen and (min-width:992px) {
     /* debug */
+       /* main */
+                /* Section Application */
     body {
         background-color: lightcoral;
     }
@@ -111,5 +112,7 @@ nav .mainmenu {
         width: 31.5%;
         margin-left: 2.5rem;
     }
+
+
 }
 
