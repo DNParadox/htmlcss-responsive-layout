@@ -76,6 +76,7 @@ nav .mainmenu {
 }
 
 /* Section Testimonial */
+
 /* Section Benefits */
 
 /* Vers Tablet */
@@ -108,9 +109,20 @@ nav .mainmenu {
     }
     /* Section Strategy */
     /* Section Testimonial */
-    /* Section Benefits */
     
-}
+    /* Section Benefits */
+
+    .flexwrap {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .columnbenefits .col {
+        width: calc(100% / 2 - 1rem);
+        padding: 0 1rem;
+        margin: 0.7rem 0.5rem;
+        }
+    }
+
 
 /* Vers Desktop */
 @media screen and (min-width:992px) {
@@ -151,5 +163,13 @@ nav .mainmenu {
     .card img {
         width: 100%;
     }
+
+
+    /* Strategy Benefits */
+    .columnbenefits .col {
+        width: calc(100% / 3 - 1rem);
+        padding: 0 1rem;
+        margin: 0.7rem 0.5rem;
+        }
 }
 
