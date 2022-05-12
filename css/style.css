@@ -11,7 +11,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .mbm {
@@ -28,7 +27,6 @@ header {
 nav {
     height: 100%;
 }
-
 
 nav .mainmenu {
     display: none;
@@ -61,6 +59,19 @@ nav .mainmenu {
 
 } */
 
+/* Section Strategy */
+.strategy {
+    background-color: #9792e4;;
+}
+
+.strategy .img {
+    display: flex;
+    justify-content: center;
+}
+
+.img img , .card img {
+    width: 50%;
+}
 
 /* Vers Tablet */
 @media screen and (min-width:768px) {
@@ -70,6 +81,7 @@ nav .mainmenu {
     body {
         background-color: lightblue;
     }
+    
     .columntop, .columnbot {
         display: flex;
         justify-content: space-between; 
@@ -100,6 +112,10 @@ nav .mainmenu {
         background-color: lightcoral;
     }
 
+    .container {
+        margin: 0 auto;
+    }
+
     nav .burgermenu {
         display:none;
     }
@@ -113,6 +129,18 @@ nav .mainmenu {
         margin-left: 2.5rem;
     }
 
+    .strategycolumn {
+        display: flex;
+        width: 90%;
+        margin: 0 auto;
+    }
 
+    .img {
+        width: 50%;
+    }
+
+    .img img , .card img {
+        width: 100%;
+    }
 }
 
