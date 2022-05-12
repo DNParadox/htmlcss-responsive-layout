@@ -76,7 +76,9 @@ nav .mainmenu {
 }
 
 /* Section Testimonial */
-
+.testimonial {
+    background-color: blue;
+}
 /* Section Benefits */
 
 /* Vers Tablet */
@@ -109,7 +111,9 @@ nav .mainmenu {
     }
     /* Section Strategy */
     /* Section Testimonial */
-    
+    .testimonial {
+        background-color: blue;
+    }
     /* Section Benefits */
 
     .flexwrap {
