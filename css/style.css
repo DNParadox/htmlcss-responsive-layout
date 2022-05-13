@@ -20,11 +20,30 @@ body {
     margin-left: 2rem;
     margin-right: 2rem;
 }
+.container {
+    max-width: 1170px;
+}
 
+.column {
+    margin-top: 2rem;
+}
+
+
+.col {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.columntop h2, .columnbot h2 {
+    color: #0084fd;
+    text-align: center;
+
+}
 .content {
     padding-left: 1rem;
     padding-right: 1rem;
     padding-top: 1rem;
+    border-radius: 1.0rem 1.0rem 1.0rem 1.0rem;
 }
 /* Inizio Header */
 
@@ -42,7 +61,7 @@ nav .mainmenu {
     width: 50%;
 }
 
-.burgermenu {
+.burgermenu a {
     color: white;
     font-size: 1.5rem;
 }
@@ -62,38 +81,46 @@ li .btn {
     background-color: white;
     color: black;
     padding: 0.4rem 0.8rem;
-    border-radius: 1.0rem 1.0rem 1.0rem 1.0rem;;
+    border-radius: 1.0rem 1.0rem 1.0rem 1.0rem;
 }
 
 /* Fine header */
 
 /* Inizio Main */
+/* Section Get Demo */
 
-.container {
-    max-width: 1170px;
+.bblue {
+    background-color: #b5ddff;
 }
-
-.column {
-    margin-top: 2rem;
-}
-
-
-.col {
-    border: 1px solid red;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
-
-.columntop h2, .columnbot h2 {
+.icon {
+    font-size: 4rem;
+    text-align: center;
     color: #0084fd;;
 }
-/* .columntop {
-   
+.bblue p {
+    color: #5a6e7f;
+    line-height: 2rem;
+    width: 84%;
+    font-weight: bold;
+    font-size: 1.2rem;
 }
-.columnbot {
+.btn {
+    background-color: #0084fd;;
+    color: white;
+    padding: 0.4rem 0.8rem;
+    border-radius: 1.0rem 1.0rem 1.0rem 1.0rem;
+    text-align: center;
+    width: 45%;
+    margin-left: 2rem;
+}
+.iphone {
+    width: 60%;
+    margin: 0 auto;
+}
 
-} */
-
+.iphone img {
+    width: 100%;
+}
 /* Section Strategy */
 .strategy {
     background-color: #9792e4;
@@ -131,7 +158,6 @@ li .btn {
     }
     .topleft {
         width: 66%;
-        border: 1px solid red;
       }
     
 
@@ -143,6 +169,11 @@ li .btn {
     .columnbot .col:nth-child(2) {
         margin-left: 2.5rem;
         margin-right: 2.5rem;
+    }
+
+    .iphone {
+        width: 60%;
+        margin: 0 0;
     }
     /* Section Strategy */
     /* Section Testimonial */
@@ -184,11 +215,22 @@ li .btn {
     }
 
     /* Main  */
+    /* Get Done */
     .topright {
         width: 31.5%;
         margin-left: 2.5rem;
     }
 
+    .iphone {
+        width: 100%;
+        margin: 0 0;
+        margin-bottom: -4px;
+    }
+
+    .application .topleft .content {
+        display: flex;
+    }
+    
     .strategycolumn {
         display: flex;
         width: 95%;
