@@ -33,11 +33,12 @@ body {
     padding-bottom: 2rem;
 }
 .content {
-    padding-left: 3.5rem;
+    padding-left: 2rem;
     padding-right: 2rem;
-    padding-top: 3rem;
+    padding-top: 2rem;
     border-radius: 1.0rem 1.0rem 1.0rem 1.0rem;
-    margin: 1rem 1rem;
+    /* margin: 1rem 1rem; */
+    height: 100%;
 }
 /* Inizio Header */
 
@@ -109,11 +110,13 @@ li .btn {
     margin: 2rem 0;
 }
 .iphone {
-    width: 60%;
+    max-width: 300px;
+    margin: 0 auto;
 }
 
 .iphone img {
     width: 100%;
+    display: block;
 }
 
 .pdb {
@@ -148,6 +151,9 @@ img {
     flex-direction: column;
 }
 
+.col {
+    margin-bottom: 1rem;
+}
 /* Section Testimonial */
 .testimonial {
     background-color: blue;
@@ -173,7 +179,7 @@ img {
     
 
     .topright {
-        width: 38%;
+        width: 32%;
     }
 
     .topright .content {
@@ -186,7 +192,6 @@ img {
 
     .iphone {
         width: 60%;
-        margin: 0 0;
     }
     /* Section Strategy */
     /* Section Testimonial */
@@ -230,7 +235,7 @@ img {
     /* Main  */
     /* Get Done */
     .topright {
-        width: 31.5%;
+        width: 32%;
     }
 
     .topright .content {
@@ -240,7 +245,6 @@ img {
     .iphone {
         width: 100%;
         margin: 0 0;
-        margin-bottom: 1.6rem;
     }
 
     .application .topleft .content {
@@ -249,6 +253,22 @@ img {
 
     .pdb p {
         font-size: 1.1rem;
+    }
+
+    .col.topleft {
+        width: 66%;
+      }
+    .col {
+        width: 32%;
+    }
+
+    .tank {
+        width: 50%;
+    }
+    
+    .mnegative {
+     width: 50%;
+
     }
     /* Strategy */
     .strategycolumn {
